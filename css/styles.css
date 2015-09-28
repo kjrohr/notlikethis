@@ -1,0 +1,230 @@
+/* Color Scheme ========================= */
+/* #8B4738 */
+/* #8D8D7D */
+/* #F1E8D2 */
+/* #D8CFB9 */
+/* #3E2E29 */
+/* End of Color Scheme ================== */
+/* Consider changing max width to 960 */
+
+body
+{
+	font: 62.5% Helvetica Neue, Arial, Helvetica;	
+	max-width: 1280px;
+	margin: 0 auto;
+	background: url(../imgs/5.jpg) no-repeat center center fixed;
+	background-size: cover;
+	color: #3E2E29;
+}
+
+#main_wrapper
+{
+	font-size: 1.6em;
+	background-color: rgba(141,141,125, 0.6);
+	overflow: hidden;
+}
+
+img, iframe
+{
+	width: 100%;	
+}
+
+a:active
+{
+	color: #3E2E29;
+}
+
+a:visited
+{
+	color: #3E2E29;	
+}
+
+
+/* Header ====================== */
+#banner
+{
+	background: url(../imgs/3.jpg) no-repeat center center;
+}
+
+header #banner
+{
+	position: relative;	
+	width: 100%;
+	height: 250px;
+}
+
+
+header div ul
+{
+	
+	position: absolute;
+	right: 0;
+	bottom: 0;
+	color: white;
+	padding: 0 1.5625% 20px 0;/* target is 20px */
+	font-size: 1.6rem;
+	
+}
+
+header div ul li
+{
+	display: block;
+	position: relative;
+	
+}
+
+nav
+{
+	overflow: hidden;
+	background-color: rgba(216, 207, 185, 0.6);
+}
+header nav ul li
+{	
+	display: inline-block;
+	font-size: 1.6rem;
+	margin: 0 10px 0 10px;
+	cursor: pointer;
+}
+
+header nav ul li:nth-of-type(1)
+{
+	margin: 0 10px 0 20px;	
+}
+
+header nav ul:nth-of-type(1)
+{
+	float: left;
+}
+
+header nav form
+{
+	float: right;
+	margin: 2.4px 0 0 0;
+}
+
+header nav input
+{
+	background-color: #D8CFB9;	
+	height: 25px;
+	font-style: italic;
+	padding: 0 0 0 5px;/* 0.390625 */
+}
+
+#login_button
+{
+	margin: 0 20px 0 10px;
+	float: right;
+	background: #8B4738 url(../imgs/login_btn.png) no-repeat center center;
+	width: 125px;
+	height: 25px;
+	cursor: pointer;	
+}
+
+header nav ul li ul
+{
+	display: none;
+	background-color: rgba(216, 207, 185, 1.0);
+    position:absolute;
+    width:250px;
+	z-index: 9999;
+}
+
+header nav ul li ul li
+{
+	list-style-type: none;
+	display: block;	
+	margin: 0;
+	padding-left: 20px;
+	
+}
+
+header nav ul li ul li:first-child
+{
+	margin: 0;
+}
+
+header nav ul li ul li:hover
+{
+	background-color: rgba(241, 232, 210, 0.35);	
+}
+
+header nav ul li:hover
+{
+	background-color: rgba(241, 232, 210, 0.85);
+}
+
+/* End of header =============== */
+
+#content_wrapper
+{
+	width: 970px;
+	height: 623px;
+	margin: 20px 10px 0 20px;
+	background-color: rgba(216, 207, 185, 0.8);
+	float: left;
+	position: relative;
+	padding: 20px;
+	
+	
+}
+
+#twitter_bar
+{
+	width: 250px;
+	background-color: rgba(216, 207, 185, 0.8);
+	float: right;
+	margin: 20px 20px 0 10px;
+	padding: 20px 20px 0 20px;
+	
+}
+
+
+#content_wrapper h1
+{
+	font: 1.6rem 'Nova Flat', cursive;
+	margin: 20px 0 0 20px;
+	
+}
+
+#content_wrapper p, #map_wrapper
+{
+	font-size: 1.0rem;
+	margin: 10px 20px 0 20px;
+	line-height: 20px;	
+	
+}
+
+/* Map =============================== */
+#map
+{
+	width: 100%;
+	position:absolute;
+	background: rgba(216, 207, 185, 0.6);	
+	bottom: 0;
+	left: 0;
+	font-size: 1.2rem;
+	display: none;
+
+}
+
+.map_item, #rail, #northernGun
+{
+	display:inline-block;
+	cursor: pointer;
+	font-family: 'Nova Mono', ;
+}
+
+#content_wrapper .map_item:hover, .selected, .selected_tab
+{
+	background-color: rgba(241, 232, 210, 1.0);	
+}
+
+#map h2
+{
+	font: 1.4rem 'Nova Flat', cursive;
+	
+}
+
+
+
+/* End of Map ======================== */
